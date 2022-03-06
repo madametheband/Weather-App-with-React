@@ -1,38 +1,156 @@
-.App {
+body {
+  width: 950px;
+  border: 5px solid #6e6e6e;
+  margin: 40px;
+  border-radius: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.city-search {
+  padding-top: 25px;
+}
+.forecast-conditions {
+  text-transform: capitalize;
+}
+.current-conditions,
+.row,
+.airplane,
+.card,
+.dreams,
+.canada,
+.col-1,
+.card-title,
+.card-subtitle,
+.high-low,
+.card-text {
+  text-align: center;
+}
+.current-weather {
+  text-align: center;
+  margin-left: 315px;
+}
+.card-subtitle {
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card .travel-body {
+  background-color: #e8f4fd;
+}
+.airplane {
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.travel-body,
+.card {
+  border: 2px solid grey;
+  border-radius: 120px;
+}
+.weather-conditions {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+  color: #60ad66;
 }
 
-.App-link {
-  color: #61dafb;
+.rain-clouds {
+  font-size: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.btn {
+  background-color: #dbeee8;
+  color: #60ad66;
+  border: solid #bfdfb3;
+  border-radius: 40px;
+}
+.col-3 {
+  font-size: 20px;
+}
+.the-sun,
+.mericka {
+  font-size: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sfGeneral {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: -100px;
+  margin-top: -50px;
+}
+.farenheit {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.active {
+  cursor: default;
+  color: black;
+}
+.active:hover {
+  text-decoration: none;
+  color: black;
+}
+.celsius {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.card2 {
+  border: none;
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+.high-low {
+  font-size: 10px;
+}
+.card-text {
+  text-align: center;
+  font-size: 12px;
+}
+.high {
+  color: rgb(243, 105, 13);
+}
+.low {
+  color: rgb(92, 195, 243);
+}
+.emoji {
+  font-size: 40px;
+}
+.sflow {
+  margin-left: 100px;
+}
+.currentLocation {
+  background-color: #ffffff;
+  color: #60ad66;
+  border: solid #60ad66;
+  padding: 7px;
+  border-radius: 5px;
+}
+.changingTemp {
+  margin-left: -87px;
+  font-size: 65px;
+}
+.signature {
+  margin-bottom: -23px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+.units {
+  vertical-align: super;
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
 }
